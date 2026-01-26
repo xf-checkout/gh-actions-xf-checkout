@@ -5,7 +5,7 @@ Org-specific wrapper workflows for the xf-checkout GitHub org. These workflows a
 
 ## Triggers
 - `repository_dispatch` for `orchestrator`, `discover`, and `summary`
-- `schedule` every 30 minutes for `poller`
+Polling runs in the dedicated public repo: `gh-actions-xf-checkout-polling`.
 
 ## Requirements
 - `BWS_ACCESS_TOKEN` and `BWS_PROJECT_ID` repo secrets
