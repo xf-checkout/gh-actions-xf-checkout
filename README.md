@@ -4,8 +4,8 @@ Org-specific wrapper workflows for the xf-checkout GitHub org. These workflows a
 **thin wrappers** that call shared reusable workflows from `gh-actions-shared`.
 
 ## Triggers
-- `repository_dispatch` for `orchestrator`, `discover`, and `summary`
-Polling runs in the dedicated public repo: `gh-actions-xf-checkout-polling`.
+- `workflow_dispatch` for `orchestrator`, `discover`, `summary`, `repository`, `fork`, and `polling`
+Fork drift polling is triggered by the Worker cron (no polling repos).
 
 ## Requirements
 - `BWS_ACCESS_TOKEN` and `BWS_PROJECT_ID` repo secrets
