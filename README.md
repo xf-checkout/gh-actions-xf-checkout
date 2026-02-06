@@ -1,6 +1,6 @@
-# gh-actions-xf-checkout
+# gh-actions-upstream
 
-Org-specific wrapper workflows for the xf-checkout GitHub org. These workflows are
+Org-specific wrapper workflows for the upstream GitHub org. These workflows are
 **thin wrappers** that call shared reusable workflows from `gh-actions-shared`.
 
 ## Triggers
